@@ -17,7 +17,6 @@ import org.springframework.stereotype.Component;
  * @email liufenglin@163.com
  * @date 2018/10/27
  */
-@Component
 public class Queue {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Queue.class);

@@ -54,7 +54,7 @@ public class MsgController {
         boolean isMsgValid = false;
         String msg = null;
         if (jsonObject.containsKey(MSG)) {
-            String  if (!msg.trim().equals(BLANK)) {
+            if (!msg.trim().equals(BLANK)) {
                 isMsgValid = true;
             }
         }
