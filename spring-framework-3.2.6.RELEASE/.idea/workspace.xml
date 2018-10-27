@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b474945-9504-42a9-a606-4c6cf0a15211" name="Default Changelist" comment="" />
+    <list default="true" id="6b474945-9504-42a9-a606-4c6cf0a15211" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minispringmvc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minispringmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../minispringmvc/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../minispringmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../minispringmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minispringmvc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +45,172 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1524193918">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="28" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="28" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7774">
+              <caret line="379" column="41" selection-start-line="379" selection-start-column="16" selection-end-line="379" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2829">
+              <caret line="143" column="73" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dist/changelog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14904">
+              <caret line="648" column="69" selection-start-line="648" selection-start-column="69" selection-end-line="648" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/foo/ComponentBeanDefinitionParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/config/BeanDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#8466#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/AttributeAccessorSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="75" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#2901#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactoryUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11362">
+              <caret line="572" selection-start-line="572" selection-end-line="572" />
+              <folding>
+                <element signature="e#16367#16368#0" expanded="true" />
+                <element signature="e#16418#16419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AbstractAutowireCapableBeanFactory()</find>
+      <find>setParentBeanFactory(</find>
+      <find>getInternalParentBeanFactory</find>
+      <find>loadBeanDefinitions(DefaultListableBeanFactory beanFactory)</find>
+      <find>loadBeanDefinitions(beanFactory)</find>
+      <find>refreshBeanFactory()</find>
+      <find>loadBeanDefinitions(beanfa</find>
+      <find>protected void loadBeanDefinitions(DefaultListableBeanFactory beanFactory) throws BeansException, IOException</find>
+      <find>getConfigLocations</find>
+      <find>public int loadBeanDefinitions(String location)</find>
+      <find>XmlBeanDefinitionReader</find>
+      <find>return loadBeanDefinitions(new EncodedResource(resource));</find>
+      <find>getValidationModeForResource(resource)</find>
+      <find>registerBeanDefinitions(Document doc, XmlReaderContext readerContext)</find>
+      <find>BeanDefinitionParserDelegate</find>
+      <find>return new BeanDefinitionHolder</find>
+      <find>具体的解析过程由BeanDefinitionParserDelegate实现</find>
+      <find>BeanDefinitionReaderUtils.registerBeanDefinition(bdHolder, getReaderContext().getRegistry());</find>
+      <find>BeanDefinitionReaderUtils</find>
+      <find>BeanDefinitionRegistry</find>
+      <find>registerBeanDefinition</find>
+      <find>registerBeanDefinition(String beanName, BeanDefinition beanDefinition)</find>
+      <find>Assert.hasText(beanName, &quot;Bean name must not be empty&quot;);</find>
+      <find>ConfigurableWebApplicationContext</find>
+      <find>class BeanDefinition</find>
+      <find>BeanDefinition</find>
+      <find>AttributeAccessor</find>
+      <find>new XmlBeanDefinitionReader(this);</find>
+      <find>this.reader = new XmlBeanDefinitionReader(this);;</find>
+      <find>根据Xml</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\idea-workspace\spring-framework-3.2.6.RELEASE\spring-beans</dir>
+      <dir>F:\idea-workspace\spring-framework-3.2.6.RELEASE</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -64,9 +238,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2773678408000" />
+        <entry key="$PROJECT_DIR$" value="6144586154069" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="328887928" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="1173325708" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3902920067" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="269443947" />
       </map>
     </option>
     <option name="projectSyncType">
@@ -79,6 +255,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/support/XmlWebApplicationContext.java" />
       </list>
     </option>
   </component>
@@ -89,10 +266,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="41" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="30" />
+    <option name="y" value="81" />
+    <option name="width" value="1618" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -428,60 +605,240 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-webmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-3.2.6.RELEASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="org" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="org" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="springframework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="org" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="springframework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="spring-context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="org" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="springframework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="context" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="support" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-beans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-framework-3.2.6.RELEASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework-3.2.6.RELEASE" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535899071171" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537277498702" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../minispringmvc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -499,6 +856,9 @@
       </list>
     </option>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,SHOW_PROPERTIES" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -511,17 +871,26 @@
       <updated>1535811954974</updated>
       <workItem from="1535811958754" duration="4730000" />
       <workItem from="1535849564434" duration="1638000" />
+      <workItem from="1537257824896" duration="10605000" />
+      <workItem from="1537356556774" duration="5061000" />
+      <workItem from="1537414257498" duration="10264000" />
+      <workItem from="1537493900733" duration="2503000" />
+      <workItem from="1537511803268" duration="3000" />
+      <workItem from="1539048806478" duration="3090000" />
+      <workItem from="1539263329837" duration="1296000" />
+      <workItem from="1539346543958" duration="379000" />
+      <workItem from="1540438294067" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6368000" />
+    <option name="totallyTimeSpent" value="39663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="41" width="1346" height="688" extended-state="0" />
+    <frame x="27" y="71" width="1412" height="863" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4963899" visible="true" weight="0.27293935" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50361013" side_tool="true" visible="true" weight="0.27293935" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49287748" visible="true" weight="0.44822484" />
+      <window_info id="Structure" order="1" sideWeight="0.5071225" side_tool="true" visible="true" weight="0.44822484" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -538,7 +907,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.14801444" />
+      <window_info active="true" anchor="bottom" id="Build" order="11" visible="true" weight="0.035714287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496112" />
@@ -557,17 +926,223 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ConfigurableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="430" column="45" lean-forward="true" selection-start-line="430" selection-start-column="45" selection-end-line="430" selection-end-column="45" />
+        <state relative-caret-position="7107">
+          <caret line="367" column="37" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="642" column="45" selection-start-line="642" selection-start-column="45" selection-end-line="642" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="223" column="64" lean-forward="true" selection-start-line="223" selection-start-column="64" selection-end-line="223" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/ConfigurableWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10465">
+          <caret line="558" column="29" selection-start-line="558" selection-start-column="29" selection-end-line="558" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-tx/src/main/java/org/springframework/jca/context/SpringContextResourceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3887">
+          <caret line="205" column="40" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="98" column="82" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="171" column="28" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/WebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/HttpServletBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="232" column="28" selection-start-line="232" selection-start-column="28" selection-end-line="232" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-webmvc-portlet/src/main/java/org/springframework/web/portlet/context/XmlPortletApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2323">
+          <caret line="120" column="62" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/support/XmlWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3657">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10304">
+          <caret line="507" column="47" selection-start-line="507" selection-start-column="23" selection-end-line="507" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/BeanMetadataAttributeAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7774">
+          <caret line="379" column="41" selection-start-line="379" selection-start-column="16" selection-end-line="379" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2829">
+          <caret line="143" column="73" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="73" />
           <folding>
-            <element signature="e#0#56249#0" expanded="true" />
-            <element signature="e#16762#16763#0" expanded="true" />
-            <element signature="e#16776#16777#0" expanded="true" />
-            <element signature="e#19126#19127#0" expanded="true" />
-            <element signature="e#19161#19162#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dist/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14904">
+          <caret line="648" column="69" selection-start-line="648" selection-start-column="69" selection-end-line="648" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foo/ComponentBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/AttributeAccessorSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="75" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#2901#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11362">
+          <caret line="572" selection-start-line="572" selection-end-line="572" />
+          <folding>
+            <element signature="e#16367#16368#0" expanded="true" />
+            <element signature="e#16418#16419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/config/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#8466#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

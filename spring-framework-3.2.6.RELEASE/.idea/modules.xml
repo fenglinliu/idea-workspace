@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework-3.2.6.RELEASE.iml" filepath="$PROJECT_DIR$/.idea/spring-framework-3.2.6.RELEASE.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework-3.2.6.RELEASE.iml" filepath="$PROJECT_DIR$/spring-framework-3.2.6.RELEASE.iml" />
     </modules>
   </component>
