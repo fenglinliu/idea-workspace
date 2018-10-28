@@ -3,7 +3,7 @@ package cn.bookcycle.messagequeue.service;
 import cn.bookcycle.messagequeue.pojo.ResponseInterface;
 
 /**
- * PutMessageService
+ * MessageService
  *
  * @author Flynn
  * @version 1.0
@@ -11,9 +11,11 @@ import cn.bookcycle.messagequeue.pojo.ResponseInterface;
  * @email liufenglin@163.com
  * @date 2018/10/27
  */
-public interface PutMessageService {
+public interface MessageService {
 
     ResponseInterface putMessageToQueue(String msg, String name);
+
+    ResponseInterface pullMessage(String name, String businessId);
 
 
 

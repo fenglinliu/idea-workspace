@@ -2,16 +2,13 @@ package cn.bookcycle.messagequeue.controller;
 
 import cn.bookcycle.messagequeue.pojo.ResponseBaseInfo;
 import cn.bookcycle.messagequeue.pojo.ResponseInterface;
-import cn.bookcycle.messagequeue.service.PutMessageService;
+import cn.bookcycle.messagequeue.service.MessageService;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * MsgController
@@ -22,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @email liufenglin@163.com
  * @date 2018/10/27
  */
-@Controller
+@RestController
 public class MsgController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MsgController.class);
@@ -35,7 +32,7 @@ public class MsgController {
 
 
     @Autowired
-    private PutMessageService putMessageService;
+    private MessageService messageService;
 
     @RequestMapping(value = "/mq", method = RequestMethod.POST)
     public ResponseInterface putMessage(@RequestBody (required = false) String requestBody) {
@@ -54,33 +51,45 @@ public class MsgController {
         boolean isMsgValid = false;
         String msg = null;
         if (jsonObject.containsKey(MSG)) {
-            if (!msg.trim().equals(BLANK)) {
+            msg = jsonObject.getString(MSG).trim();
+            if (!msg.equals(BLANK)) {
                 isMsgValid = true;
             }
-        }
-        if (!isMsgValid) {
-            ResponseBaseInfo response = new ResponseBaseInfo();
-            response.setRspCode(ResponseInterface.MSG_INVALID_CODE);
-            response.setResult(ResponseInterface.MSG_INVALID_TIPS);
-            return response;
         }
 
         String name = null;
         boolean isNameValid = true;
         if (jsonObject.containsKey(NAME)) {
-            name = jsonObject.getString(NAME);
-            if (name.trim().equals(BLANK)) {
+            name = jsonObject.getString(NAME).trim();
+            if (name.equals(BLANK)) {
                 isNameValid = false;
             }
         }
-        if (!isNameValid) {
+
+        if (!isMsgValid && !isNameValid) {
+                ResponseBaseInfo response = new ResponseBaseInfo();
+                response.setRspCode(ResponseInterface.MSG_AND_NAME_INVALID_CODE);
+                response.setResult(ResponseInterface.MSG_AND_NAME_INVALID_TIPS);
+                return response;
+
+        } else if (!isMsgValid){
+            ResponseBaseInfo response = new ResponseBaseInfo();
+            response.setRspCode(ResponseInterface.MSG_INVALID_CODE);
+            response.setResult(ResponseInterface.MSG_INVALID_TIPS);
+            return response;
+        } else if (!isNameValid) {
             ResponseBaseInfo response = new ResponseBaseInfo();
             response.setRspCode(ResponseInterface.NAME_INVALID_CODE);
             response.setResult(ResponseInterface.NAME_INVALID_TIPS);
             return response;
         }
 
-        return putMessageService.putMessageToQueue(msg, name);
+
+        return messageService.putMessageToQueue(msg, name);
     }
 
+    @RequestMapping(value = "/mq", method = RequestMethod.GET)
+    public ResponseInterface pullMessage(@RequestParam (required = false) String businessId, @RequestParam (required = false) String name) {
+            return messageService.pullMessage(name, businessId);
+    }
 }
