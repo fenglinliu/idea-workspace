@@ -87,7 +87,9 @@ public class MessageServiceImpl implements MessageService, Serializable {
                 isCreateExchange = true;
             } else {
                 // 通过name查询交换器是否存在，如果不存在则则创建一个交换器
+                LOGGER.info("putMessageToQueue - exchangeAndQueueNumber:{}", exchangeAndQueueNumber);
                 if (!exchangeAndQueueNumber.containsKey(name)) {
+                    LOGGER.info("putMessageToQueue - isCreateExchange:{}", isCreateExchange);
                     isCreateExchange = true;
                 }
             }
@@ -224,6 +226,7 @@ public class MessageServiceImpl implements MessageService, Serializable {
                         String newQueueName = IDAndNameProducer.newQueueName(name, usedQueueNumber);
                         //将该系统的businessId和对应的队列记录下来
                         businessIdsAndQueueName.put(businessId, newQueueName);
+                        LOGGER.info("pullMessage - businessIdsAndQueueName:{}", businessIdsAndQueueName);
                         // 更新使用过的队列记录
                         exchangeAndUsedQueueNumber.put(name, usedQueueNumber);
                         // 向指定的队列去取消息
