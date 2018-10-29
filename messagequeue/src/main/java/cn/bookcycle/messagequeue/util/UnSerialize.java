@@ -1,5 +1,6 @@
 package cn.bookcycle.messagequeue.util;
 
+import cn.bookcycle.messagequeue.constant.Constants;
 import cn.bookcycle.messagequeue.service.MessageService;
 import cn.bookcycle.messagequeue.service.MessageServiceImpl;
 import org.slf4j.Logger;
@@ -23,14 +24,17 @@ public class UnSerialize implements Runnable {
 
     public static MessageService messageService;
 
-    private String address = "G:/obj.txt";
+    private String address = Constants.ADDRESS;
 
     public void unSerialize() throws IOException, ClassNotFoundException {
-        ObjectInputStream is = new ObjectInputStream(new FileInputStream(address));
-        MessageService bean = (MessageServiceImpl) is.readObject();
-        LOGGER.info("-------------------反序列化开始了。。。。。-------------------");
-        LOGGER.info("unSerialize - bean:{}", bean.toString());
-        messageService = bean;
+        File file = new File(address);
+        if (file.exists()) {
+            ObjectInputStream is = new ObjectInputStream(new FileInputStream(address));
+            MessageService bean = (MessageServiceImpl) is.readObject();
+            LOGGER.info("-------------------反序列化开始了。。。。。-------------------");
+            LOGGER.info("unSerialize - bean:{}", bean.toString());
+            messageService = bean;
+        }
 //        ApplicationContext appCtx = SpringContextUtil.getApplicationContext();
 //        MessageService messageService =  (MessageService) SpringContextUtil.getBean(MessageService.class);
 //        ((MessageServiceImpl) messageService).setBusinessIdsAndQueueName(((MessageServiceImpl) bean).getBusinessIdsAndQueueName());

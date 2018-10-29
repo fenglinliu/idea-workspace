@@ -31,10 +31,11 @@ public class CodeUtil {
         thread.start();
     }
 
-    public static void code4AssignValueUnSerialize() {
+    public static MessageService code4AssignValueUnSerialize() {
         ApplicationContext appCtx = SpringContextUtil.getApplicationContext();
         MessageService bean = (MessageService) SpringContextUtil.getBean(MessageService.class);
         bean = UnSerialize.messageService;
-        LOGGER.info("========bea:{}", bean.toString());
+        LOGGER.info("========bean:{}", bean);
+        return bean;
     }
 }

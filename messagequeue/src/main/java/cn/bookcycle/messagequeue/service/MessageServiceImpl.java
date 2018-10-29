@@ -75,7 +75,11 @@ public class MessageServiceImpl implements MessageService, Serializable {
     public ResponseInterface putMessageToQueue(String msg, String name) {
         // 首先进行，反序列化的赋值
         if (isAssignUnSerialize == false) {
-            CodeUtil.code4AssignValueUnSerialize();
+            LOGGER.info("-----------反序列化的赋值------------------");
+            MessageService messageService = CodeUtil.code4AssignValueUnSerialize();
+            exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
+            exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
+            businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
             isAssignUnSerialize =true;
         }
 
@@ -148,7 +152,11 @@ public class MessageServiceImpl implements MessageService, Serializable {
     public ResponseInterface pullMessage(String name, String businessId) {
         // 首先进行，反序列化的赋值
         if (isAssignUnSerialize == false) {
-            CodeUtil.code4AssignValueUnSerialize();
+            LOGGER.info("-----------反序列化的赋值------------------");
+            MessageService messageService = CodeUtil.code4AssignValueUnSerialize();
+            exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
+            exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
+            businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
             isAssignUnSerialize =true;
         }
 

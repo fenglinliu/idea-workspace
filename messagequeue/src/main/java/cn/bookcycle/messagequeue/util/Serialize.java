@@ -1,5 +1,6 @@
 package cn.bookcycle.messagequeue.util;
 
+import cn.bookcycle.messagequeue.constant.Constants;
 import cn.bookcycle.messagequeue.service.MessageService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +25,7 @@ public class Serialize implements Runnable {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Serialize.class);
 
-    private String address = "G:/obj.txt";
+    private String address = Constants.ADDRESS;
 
     private Class clazz;
 
