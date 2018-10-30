@@ -77,9 +77,11 @@ public class MessageServiceImpl implements MessageService, Serializable {
         if (isAssignUnSerialize == false) {
             LOGGER.info("-----------反序列化的赋值------------------");
             MessageService messageService = CodeUtil.code4AssignValueUnSerialize();
-            exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
-            exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
-            businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
+            if (messageService != null) {
+                exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
+                exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
+                businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
+            }
             isAssignUnSerialize =true;
         }
 
@@ -154,9 +156,11 @@ public class MessageServiceImpl implements MessageService, Serializable {
         if (isAssignUnSerialize == false) {
             LOGGER.info("-----------反序列化的赋值------------------");
             MessageService messageService = CodeUtil.code4AssignValueUnSerialize();
-            exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
-            exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
-            businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
+            if (messageService != null) {
+                exchangeAndQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndQueueNumber();
+                exchangeAndUsedQueueNumber = ((MessageServiceImpl) messageService).getExchangeAndUsedQueueNumber();
+                businessIdsAndQueueName = ((MessageServiceImpl) messageService).getBusinessIdsAndQueueName();
+            }
             isAssignUnSerialize =true;
         }
 

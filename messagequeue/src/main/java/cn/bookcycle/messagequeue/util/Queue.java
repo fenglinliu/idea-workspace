@@ -1,5 +1,6 @@
 package cn.bookcycle.messagequeue.util;
 
+import cn.bookcycle.messagequeue.constant.Constants;
 import com.rabbitmq.client.*;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -47,14 +48,14 @@ public class Queue {
     private Connection connection;
 
     private void init() {
-        connectionFactory4Template = new CachingConnectionFactory("58.87.74.194");
+        connectionFactory4Template = new CachingConnectionFactory(Constants.IP);
         connectionFactory4Template.setUsername("admin");
         connectionFactory4Template.setPassword("1234");
         connectionFactory4Template.setPort(5672);
         rabbitTemplate = new RabbitTemplate(connectionFactory4Template);
 
         connectionFactory4Chanel = new ConnectionFactory();
-        connectionFactory4Chanel.setHost("58.87.74.194");
+        connectionFactory4Chanel.setHost(Constants.IP);
         connectionFactory4Chanel.setUsername("admin");
         connectionFactory4Chanel.setPassword("1234");
         connectionFactory4Chanel.setPort(5672);
